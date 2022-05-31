@@ -1,0 +1,17 @@
+# Get All Users
+GET http://localhost:8989/api/users
+Accept: application/json
+Content-Type: application/json
+
+###
+
+# Store User
+POST http://localhost:8989/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Carlos Ferreira",
+    "email": "conta@especializati.com.br",
+    "password": "12345678"
+}
